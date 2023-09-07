@@ -57,6 +57,7 @@ export const MockBinding: MockBindingInterface = {
       echo: false,
       record: false,
       manufacturer: 'The J5 Robotics Company',
+      product: 'The JS Robotics Widget',
       vendorId: undefined,
       productId: undefined,
       maxReadSize: 1024,
@@ -72,6 +73,7 @@ export const MockBinding: MockBindingInterface = {
       info: {
         path,
         manufacturer: optWithDefaults.manufacturer,
+        product: optWithDefaults.product,
         serialNumber: `${serialNumber}`,
         pnpId: undefined,
         locationId: undefined,
