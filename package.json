@@ -54,6 +54,7 @@
   },
   "dependencies": {
     "@serialport/bindings-interface": "../bindings-interface",
-    "debug": "^4.3.3"
+    "debug": "^4.3.3",
+    "tslib": "^2.6.2"
   }
 }
